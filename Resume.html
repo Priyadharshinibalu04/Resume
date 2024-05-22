@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini B - Resume</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .summary p {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills :hover{
+    background-color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Priyadharshini B</h1>
+            <p>BCA Student, Christ (Deemed to be University), Bangalore</p>
+        </header>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: priyadharshinibalu@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/priya-dharshini-a3401429b/">linkedin.com/in/priyadharshini</a></p>
+            <p>Phone: 8431524426</p>
+        </section>
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>A dedicated and motivated BCA student with a strong academic background and excellent problem-solving skills. Adept at collaborating with team members and eager to contribute to technology projects.</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Computer Applications (BCA)</td>
+                        <td>Christ University, Bangalore, Karnataka</td>
+                        <td>2022 - Present</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Pre-University Course (PUC)</td>
+                        <td>Vision PU College</td>
+                        <td>2020 - 2022</td>
+                        <td>94%</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary School Leaving Certificate (SSLC)</td>
+                        <td>MMET English School</td>
+                        <td>2019</td>
+                        <td>90%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript  (Level: intermediate)</li>
+                <li>Database, C++  (Level: intermediate)</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Communication</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
